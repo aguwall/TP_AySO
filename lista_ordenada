@@ -1,0 +1,10 @@
+2do_usuario:x:1003:1003:usuario bien creado:/home/2do_usuario:/bin/bash
+3er_usuario:x:1004:1005::/home/3er_usuario:/bin/bash
+4to_usuario:x:1005:1004::/home/4to_usuario:/bin/bash
+5to_usuario:x:1006:1006::/home/5to_usuario:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+ubuntu:x:1001:1001:Ubuntu:/home/ubuntu:/bin/bash
+vagrant:x:1000:1000:,,,:/home/vagrant:/bin/bash
+lxd:x:999:100::/var/snap/lxd/common/lxd:/bin/false
+pollinate:x:110:1::/var/cache/pollinate:/bin/false
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
