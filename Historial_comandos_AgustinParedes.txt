@@ -1,0 +1,248 @@
+    1  lsb_release -a
+    2  ls - l /sbind
+    3  vagrant halt
+    4  pwd
+    5  ls -la
+    6  ls -la .ssh/
+    7  cat .ssh/id_ed25519.pub 
+    8  cd repogit/
+    9  ll
+   10  git clone git@github.com:aguwall/TP_AySO.git
+   11  cd TP_AySO/
+   12  echo ""
+   13  echo "hola $(whoami)"
+   14  echo "hola $(whoami)" > unarchivo
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -m "add: primer commit" 
+   19  git status
+   20  git push
+   21  mkdit otro
+   22  cd otro/
+   23  git clone git@github.com:aguwall/TP_AySO.git
+   24  ll
+   25  man
+   26  man man
+   27  qqqq
+   28  git clone git@github.com:aguwall/TP_AySO.git
+   29  man man
+   30  man
+   31  man man
+   32  ls l
+   33  ls l-
+   34  user
+   35  useradd
+   36  useradd 1er_usuario
+   37  whatis useradd
+   38  sudo useradd 1er_usuario
+   39  echo $?
+   40  grep usuario /etc/passwd
+   41  sudo su
+   42  grep -E 'usuario|vagr' /etc/passwd
+   43  ls -l /home
+   44  sudo su
+   45  man useradd
+   46  supo apt-get install manpages-es manpages-es extra
+   47  sudo dpkg-reconfigure locales
+   48  env |grep -iE 'home|pwd|shel'
+   49  pwd
+   50  cd/tmp/
+   51  cd /tmp/
+   52  env |grep -iE 'home|pwd|shel'
+   53  cd -
+   54  cd repogit
+   55  cd /tmp/
+   56  cd -
+   57  id
+   58  logout
+   59  ls -l
+   60  cd repogit/
+   61  ll
+   62  ls -l
+   63  ls -l /home/vagrant/.ssh/
+   64  pwd
+   65  ls -l ../.ssh/
+   66  ssh-keygen--help
+   67  ssh-keygen  --help
+   68  ssh-keygen  -t ed25519
+   69  cat ../.ssh/id_ed_ed25519.pub
+   70  cat ../.ssh/id__ed_ed25519.pub
+   71  cat ../.ssh/id_ed25519.pub
+   72  id
+   73  su - vagrant
+   74  id
+   75  sudo su
+   76  vim /etc/group
+   77  id
+   78  man passwd
+   79  man 5 passwd
+   80  id
+   81  grep vagr /etc/group 
+   82  grep profe /etc/group 
+   83  sudo passwd 4to_usuario 
+   84  sudo whoami
+   85  su - 4to_usuario
+   86  ls -l
+   87  sudo apt update
+   88  sudo apt install -y manpages-e
+   89  sudo apt install -y manpages-es
+   90  sudo localctl set-locale LANG=es_AR.UTF-8
+   91  man man
+   92  pwd
+   93  su - 3er_usuario
+   94  who
+   95  cd repogit
+   96  sudo useradd -m -s /bin/bash -c "usuario bien creado" 2do_usuario
+   97  ls -l /home/
+   98  id
+   99  id 2do_usuario
+  100  whoami
+  101  pwd
+  102  cd
+  103  pwd
+  104  cd /tmp/
+  105  cd
+  106  pwd
+  107  cd /home/vagrant
+  108  cd ../
+  109  pwd
+  110  ls -l
+  111  cd vagrant/repogit/
+  112  pwd
+  113  cd
+  114  pwd
+  115  user
+  116  man groupadd
+  117  groupadd profesores
+  118  sudo groupadd profesores
+  119  man groupadd
+  120  man ls
+  121  ls
+  122  echo $?
+  123  ls -l noexiste
+  124  echo $?
+  125  ls -l /etc/sudoers.d/
+  126  echo $?
+  127  man ls
+  128  man gruop
+  129  man group
+  130  grep profesores etc/group
+  131  grep profesores /etc/group
+  132  sudo useradd -m -s /bin/bash -G profesores 3er_usuario
+  133  grep profesores /etc/group
+  134  sudo useradd -m -s /bin/bash -g profesores 4to_usuario
+  135  grep profesores /etc/group
+  136  sudo useradd -m -s /bin/bash -G profesores 5to_usuario
+  137  grep profesores /etc/group
+  138  history |grep groupadd
+  139  history |grep useradd
+  140  id
+  141  su - vagrant
+  142  id
+  143  pwd
+  144  su - 3er_usuario
+  145  su 3er_usuario
+  146  sudo passwd 3er_usuario
+  147  su 3er_usuario
+  148  sudo su 3er_usuario
+  149  sudo su 3er_usario
+  150  su 3er_usuario
+  151  id 4to_usuario
+  152  id 2do_usuario
+  153  sudo usermod
+  154  man usermod
+  155  sudo user mod -a -G profesores 2do_usurio
+  156  sudo  usermod -a -G profesores   2do_usuario
+  157  id
+  158  id 2do_usuario
+  159  cd lele
+  160  cd repogit/
+  161  cd TP_AySO/
+  162  ll
+  163  cd
+  164  ll
+  165  rm -rf repogit/
+  166  ll
+  167  mkdir repogit
+  168  cd repogit/
+  169  git clone git@github.com:aguwall/TP_AySO.git
+  170  ll
+  171  cd TP_AySO/
+  172  pwd
+  173  ls -l
+  174  cat unarchivo 
+  175  cat /etc/os-release
+  176  man grep
+  177  grep home_url /etc/os-release
+  178  grep -i Home_url /etc/os-release
+  179  whoami
+  180  echo "Usuario=$(whoami)" > datos_usuario.txt
+  181  git status
+  182  git add .
+  183  git status
+  184  git config --global user.email "agustinalejoparedes@gmail.com"
+  185  git config --global user.name "aguwall"
+  186  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+  187  git status
+  188  git push
+  189  man tail
+  190  echo "$(grep "model name" /proc/cpuinfo | head -n1)" >> datos_usuario.txt
+  191  cat datos_usuario.txt
+  192  git add .
+  193  git commit -m "feat: añadiendo informacion de cpu"
+  194  git push
+  195  man 
+  196  man man
+  197  grep -v "nologin" /etc/passwd | sort -t ":" -k7 | head -n10 > lista_ordenada
+  198  cat lista_ordenada
+  199  git add .
+  200  git commit -m "ADD: listado de usuarios ordenada"
+  201  git push
+  202  man tcpdump
+  203  ip a
+  204  echo "el nombre del comando para ser dump traffic es: tcpdump. Y el comando para correrlo es: sudo tcpdump -i enp0s3/enp0s8" > comando_dump_net 
+  205  cat comando_dump_net
+  206  git add .
+  207  git commit -m "ADD: comando para capturar y analizar el trafico de red"
+  208  git push
+  209  ll
+  210  cat unarchivo 
+  211  cat << EOF >> unarchivo
+  212  echo "Agustin" 
+  213  echo "Paredes"
+  214  EOF
+  215  cat unarchivo 
+  216  cat << EOF >> script 
+  217  echo "Alumno: Agustin Paredes"
+  218  echo "Division: 314"
+  219  echo "Turno: Noche"
+  220  EOF
+  221  bash script
+  222  bash script > unarchivo
+  223  cat unarchivo 
+  224  cat README.md 
+  225  cat README.md
+  226  bash script > README.md 
+  227  cat README.md 
+  228  git add .
+  229  git commit -m "feat: añadi la informacion del alumno"
+  230  git push
+  231  history -a 
+  232  echo history > historial
+  233  cat historial
+  234  cp history > historial
+  235  cat historial
+  236  ll
+  237  cat historial
+  238  history
+  239  history > historial.txt
+  240  cat historial.txt
+  241  cp historial.txt /home/vagrant/repogit/TP_AySO/
+  242  cd repogit/
+  243  cd TP_AySO/
+  244  ll
+  245  cat historial.txt
+  246  ll
+  247  cd 
+  248  history > Historial_comandos_AgustinParedes.txt
