@@ -1,0 +1,1 @@
+el nombre del comando para ser dump traffic es: tcpdump. Y el comando para correrlo es: sudo tcpdump -i enp0s3/enp0s8
